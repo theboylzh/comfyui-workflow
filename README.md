@@ -24,3 +24,37 @@ https://www.bilibili.com/read/cv28500074/
 工作流预览。
 ![工作流预览](https://github.com/theboylzh/comfyui-workflow/blob/main/Advanced-Multiple-Style-With-Controlnet/workflow.j-previewpeg.jpeg)
 
+## 放大图片
+注意，这里需要下载较多的节点和模型。包括：
+- 去下载 controlnet tile SDXL 和 SD1.5 模型
+- 安装第三方节点，ComfyUI-Advanced-ControlNet
+
+另外你还需要：
+- 下载放大模型 RealESRGAN 系列（按需下载即可，我的工作流只用到2倍放大模型）
+- 下载第三方节点 Ultimate SD Upscale
+- 工作流并非最完美，需要根据实际微调。图生图效果还不够好，等待我后续更新。
+
+
+### 文生图
+- SD1.5文件夹：[upscale-t2i-v15](https://github.com/theboylzh/comfyui-workflow/tree/749580543c66d0fb6d1e4e460bcc15bddc1b878f/upscale-t2i-v15)
+- SDXL文件夹：[upscale-t2i-xl](https://github.com/theboylzh/comfyui-workflow/tree/749580543c66d0fb6d1e4e460bcc15bddc1b878f/upscale-t2i-xl)
+ 
+
+
+- 工作流预览（SD1.5）
+![工作流预览SD1.5](https://github.com/theboylzh/comfyui-workflow/blob/main/upscale-t2i-v15/preview.jpeg)
+- 工作流预览（SDXL）
+![工作流预览SDXL](https://github.com/theboylzh/comfyui-workflow/blob/main/upscale-t2i-xl/preview.jpeg)
+
+### 图生图
+- SD1.5文件夹：[upscale-i2i-v15](https://github.com/theboylzh/comfyui-workflow/tree/749580543c66d0fb6d1e4e460bcc15bddc1b878f/upscale-i2i-v15)
+- SDXL文件夹：[upscale-i2i-xl](https://github.com/theboylzh/comfyui-workflow/tree/749580543c66d0fb6d1e4e460bcc15bddc1b878f/upscale-i2i-xl)
+ 
+
+
+- 工作流预览（SD1.5）
+![工作流预览SD1.5](https://github.com/theboylzh/comfyui-workflow/blob/main/upscale-i2i-v15/preview.jpeg)
+- 工作流预览（SDXL）
+![工作流预览SDXL](https://github.com/theboylzh/comfyui-workflow/blob/main/upscale-i2i-xl/preview.jpeg)
+
+

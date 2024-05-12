@@ -15,7 +15,7 @@
 工作流通常会使用很多第三方节点，所以下载下来免不了遇到报错，下面是安装缺失节点的方法。
 https://www.bilibili.com/read/cv28500074/
 
-## 文生图
+## 一、文生图
 ### 输出多个风格
 文件夹：[Advanced-Multiple-Style-With-Controlnet](https://github.com/theboylzh/comfyui-workflow/tree/8630c32f27ddbf3d88d157a85d02f1c77fcf7853/Advanced-Multiple-Style-With-Controlnet)
 
@@ -24,7 +24,18 @@ https://www.bilibili.com/read/cv28500074/
 工作流预览。
 ![工作流预览](https://github.com/theboylzh/comfyui-workflow/blob/main/Advanced-Multiple-Style-With-Controlnet/workflow.j-previewpeg.jpeg)
 
-## 放大图片
+### 生成任意风格背景
+文件夹：[generate-background](https://github.com/theboylzh/comfyui-workflow/tree/f35ef9abad818255ecc2a9428f37e2e75fd8e3d1/generate-background)
+
+说明：
+1. 输入任意风格的参考图，自动输出和参考图比例一致的背景图片；自动反推提示词
+2. 可用于运营、海报设计
+3. IP Adapter 用的是旧版，如果你想使用需要自行手动更新到新版。或者等哪天我有空调整好工作流
+
+![工作流预览](https://github.com/theboylzh/comfyui-workflow/blob/f35ef9abad818255ecc2a9428f37e2e75fd8e3d1/generate-background/preview.jpeg)
+
+
+## 二、放大图片
 注意，这里需要下载较多的节点和模型。包括：
 - 去下载 controlnet tile SDXL 和 SD1.5 模型
 - 安装第三方节点，ComfyUI-Advanced-ControlNet
